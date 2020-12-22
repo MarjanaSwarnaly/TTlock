@@ -1,0 +1,240 @@
+/* font-family: 'Roboto', sans-serif; */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+/* ======common Css====== */
+.common_title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.common_h1 {
+  font-size: 25px;
+}
+
+/* ======header CSS====== */
+.logo {
+  height: 40px;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.menu ul li a {
+  margin-right: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333 !important;
+}
+.menu ul li:last-child a {
+  margin-right: 0 !important;
+}
+
+.menu ul li a:hover {
+  color: #0160e7 !important;
+}
+.sign {
+  font-size: 14px;
+  position: absolute;
+  right: 15px;
+}
+
+/* ======Banner CSS====== */
+.banner {
+  background: #051a3f;
+}
+.banner-item {
+  position: relative;
+  height: 572px;
+  background: url(../img/banner.dee06c8.png) 50% no-repeat;
+}
+
+.banner-content {
+  position: absolute;
+  width: 75%;
+  left: 45%;
+  top: 50%;
+  transform: translate(-40%, -50%);
+  color: #fff;
+}
+.banner-content h2 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.banner-content p {
+  font-size: 28px;
+  line-height: 50px;
+}
+
+/* ======Counter Box CSS====== */
+.counter_sec {
+  margin-top: 20px;
+}
+.single_counter {
+  text-align: center;
+}
+.single_counter .col-md-2 {
+  margin: 1.5%;
+}
+.counter_user {
+  font-size: 30px;
+  margin-bottom: 12px;
+  color: #0160e7;
+}
+
+.counter_number {
+  font-size: 36px;
+  font-weight: 400;
+  color: #000;
+}
+.counter_number .count {
+  font-size: 20px;
+}
+
+/* service CSS */
+.service {
+  background: #f9f9f9;
+}
+
+.service .common_p {
+  color: #999;
+}
+
+/* service row two */
+
+.service_card {
+  background: #fff;
+  width: calc(110% - 10px);
+  height: 240px;
+  text-align: center;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+.service_card:hover {
+  box-shadow: 0 0 16px #ddd;
+}
+.service_card_img img {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.service_card_title {
+  font-size: 20px;
+}
+.bg_bottom_img img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+  margin-top: 50px;
+}
+
+/* scenario CSS */
+.scenario {
+  background: url(../img/service.cab7815.png) 0 no-repeat;
+  height: 588px;
+  background-color: #000;
+}
+.scenario .common_h1,
+.common_p {
+  color: #fff;
+}
+/* row two css */
+.scene_hover_box {
+  position: relative;
+  margin-top: 50px;
+}
+.scene-hoverlist-item {
+  position: absolute;
+  top: 0;
+  width: 280px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #3d3d3d;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scene-hoverlist-item:hover {
+  z-index: 1;
+  transform: translateY(-10%) scale(1.2);
+}
+
+.scene_hover_box_text {
+  font-size: 12px;
+  padding: 16px 20px;
+  height: 160px;
+}
+.scene_hover_box_title {
+  margin-bottom: 12px;
+}
+
+.scene-hoverlist-item:first-child {
+  left: 0;
+}
+.scene-hoverlist-item:nth-child(2) {
+  left: 140px;
+}
+.scene-hoverlist-item:nth-child(3) {
+  left: 280px;
+}
+.scene-hoverlist-item:nth-child(4) {
+  left: 420px;
+}
+.scene-hoverlist-item:nth-child(5) {
+  left: 560px;
+}
+.scene-hoverlist-item:nth-child(6) {
+  left: 700px;
+}
+.scene-hoverlist-item:nth-child(7) {
+  left: 840px;
+}
+
+/* Footer CSS */
+footer {
+  height: 60px;
+  line-height: 60px;
+  background: #000;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Login Form CSS */
+.login_logo {
+  text-align: center;
+}
+
+.login_logo img {
+  width: 157px;
+  height: 157px;
+  margin-top: 30px;
+}
+.login_button .btn {
+  margin-top: 30px;
+  font-size: 15px;
+}
+.form-group {
+  margin-top: 35px;
+}
+.form-group label {
+  color: #666;
+}
+.form-control:hover {
+  border-color: #87acfe;
+}
+
+.form-control::placeholder {
+  color: #ced4da;
+  font-size: 14px;
+}
+
+/* Login page footer */
+.login_footer {
+  margin-top: 80px;
+  background-color: #fff;
+  font-size: 12px;
+  color: #000;
+}

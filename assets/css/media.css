@@ -1,0 +1,216 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* common */
+  .common_h1 {
+    font-size: 20px;
+  }
+  .common_p {
+    font-size: 14px;
+  }
+
+  /* ======header CSS====== */
+
+  /* navbar */
+  .navbar-light .navbar-toggler {
+    margin-left: 5%;
+  }
+  /* sign in */
+  .sign {
+    position: initial;
+  }
+
+  /* banner section */
+  .banner-item {
+    height: 200px;
+  }
+
+  .banner-content h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .banner-content p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /* service section */
+  .service_card {
+    width: auto;
+  }
+
+  /* bottom image */
+  .bg_bottom_img img {
+    margin-top: 20px;
+  }
+  /* Scenario Section */
+  .scenario {
+    background-image: none;
+    background-color: #121d2d;
+    height: 2300px;
+  }
+
+  .scene_hover_box {
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
+  .scene-hoverlist-item {
+    position: sticky;
+  }
+  .scene-hoverlist-item:hover {
+    z-index: 0;
+    transform: none;
+  }
+
+  /* footer */
+  footer {
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+  }
+  /* Login form footer */
+  .login_footer{
+    font-size: 10px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  .sign {
+    position: initial;
+    margin: 10px 0 15px 50px;
+  }
+  .navbar-nav {
+    margin-left: 6%;
+    padding: 10px;
+  }
+  .nav-item {
+    padding: 5px;
+  }
+
+  /* banner section */
+  .banner-item {
+    height: 400px;
+  }
+
+  .banner-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .banner-content p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* counter */
+  .counter_single {
+    padding: 20px;
+  }
+  /* Scenario Section */
+  .scenario {
+    background-image: none;
+    background-color: #121d2d;
+    height: 2300px;
+  }
+
+  .scene_hover_box {
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
+  .scene-hoverlist-item {
+    position: sticky;
+  }
+  .scene-hoverlist-item:hover {
+    z-index: 0;
+    transform: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sign {
+    position: initial;
+    margin: 10px 0 15px 50px;
+  }
+  .navbar-nav {
+    margin-left: 6%;
+    padding: 10px;
+  }
+  .nav-item {
+    padding: 5px;
+  }
+
+  /* counter */
+  .counter_single {
+    padding: 20px;
+  }
+
+  /* service section */
+
+  .service_card {
+    padding: 20px;
+  }
+  .service_card_title {
+    font-size: 14px;
+  }
+  .service_card_desc {
+    font-size: 12px;
+  }
+
+  /* Scenario Section */
+  .scenario {
+    background-image: none;
+    background-color: #121d2d;
+    height: 2300px;
+  }
+
+  .scene_hover_box {
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
+  .scene-hoverlist-item {
+    position: sticky;
+  }
+  .scene-hoverlist-item:hover {
+    z-index: 0;
+    transform: none;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* service */
+  .service_card {
+    width: auto;
+    padding: 20px;
+  }
+
+  /* scenario */
+  .scene-hoverlist-item:nth-child(2) {
+    left: 100px;
+  }
+  .scene-hoverlist-item:nth-child(3) {
+    left: 215px;
+  }
+  .scene-hoverlist-item:nth-child(4) {
+    left: 320px;
+  }
+  .scene-hoverlist-item:nth-child(5) {
+    left: 430px;
+  }
+  .scene-hoverlist-item:nth-child(6) {
+    left: 540px;
+  }
+  .scene-hoverlist-item:nth-child(7) {
+    left: 650px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
